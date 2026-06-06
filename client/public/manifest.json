@@ -1,0 +1,17 @@
+{
+  "name": "Chatly - Random Video Chat",
+  "short_name": "Chatly",
+  "description": "Random 1-on-1 video chat. No signup. Fully anonymous.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07060f",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
