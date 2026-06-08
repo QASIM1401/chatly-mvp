@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QASIM1401/chatly-mvp/master/client/public/favicon-32x32.png" width="100" height="100" alt="Chatly">
+  <img src="https://raw.githubusercontent.com/QASIM1401/chatly-mvp/master/client/public/android-chrome-512x512.png" width="100" height="100" alt="Chatly">
 </p>
 
 <h1 align="center">Chatly — The Best Free Random Video Chat</h1>
