@@ -283,20 +283,20 @@ Chatly is optimized for AI-powered search engines (Google SGE, ChatGPT, Perplexi
 
 ## 📄 License
 
-All rights reserved. This project is open-source for portfolio and educational purposes.
+Proprietary. All rights reserved. This source code is publicly viewable for transparency and reference.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Engineering
 
-Built as a portfolio piece demonstrating production-grade full-stack engineering:
-- Real-time WebRTC communication
-- Secure authentication flows
-- Admin analytics dashboards
-- Performance optimization (98% bundle reduction)
-- Cross-browser compatibility
-- Accessibility (WCAG 2.1)
-- SEO for AI search engines
+Chatly is a production-grade real-time communication platform featuring:
+- Real-time WebRTC P2P communication
+- Secure Google OAuth authentication
+- Admin analytics dashboard with Recharts
+- 98% bundle size reduction (Three.js → cobe)
+- Full cross-browser compatibility
+- WCAG 2.1 accessibility compliance
+- SEO optimized for AI-powered search engines
 
 ---
 
