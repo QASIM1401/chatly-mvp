@@ -19,7 +19,7 @@
 
 <br>
 
-> **TL;DR**: Chatly is a production-grade random 1-on-1 video chat platform with Google authentication, WebRTC P2P streaming, AI moderation, and a premium brutalist UI. **Zero ads. Zero paywalls. Free forever.**
+> **TL;DR**: Chatly is a production-grade random 1-on-1 video chat platform with Google authentication, WebRTC P2P streaming, and a premium brutalist UI. **Zero ads. Zero paywalls. Free forever.**
 
 ---
 
@@ -48,7 +48,6 @@ Every major random chat platform is dying from the same disease — **aggressive
 | No Popups | ✅ | — | ❌ | ❌ |
 | Google Verified Users | ✅ | ❌ | ❌ | ❌ |
 | E2E Encryption | ✅ | ❌ | ❌ | ❌ |
-| AI Moderation | ✅ | ❌ | ❌ | ❌ |
 | Multiple Themes | ✅ | ❌ | ❌ | ❌ |
 | Open Source Code | ✅ | ❌ | ❌ | ❌ |
 
@@ -63,9 +62,8 @@ Every major random chat platform is dying from the same disease — **aggressive
 - 🌍 **80+ Countries** — IP-based geo-matching with dual-provider fallback (ipapi.co + ip-api.com)
 
 ### Safety & Trust
-- 🛡️ **AI Moderation** — Automated content filtering and behavior analysis
-- 🚩 **Instant Reporting** — One-click report with auto-bans after threshold (configurable)
-- 🔒 **Persistent Bans** — Database-level bans via Prisma, survive server restarts
+- 🚩 **Instant Reporting** — One-click report with auto-bans after threshold
+- 🔒 **Persistent Bans** — Database-level bans, survive server restarts
 - 🏷️ **Age Verification** — 18+ gate with Google OAuth age data
 
 ### Security
