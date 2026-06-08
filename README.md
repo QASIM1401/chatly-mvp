@@ -93,13 +93,6 @@ Every major random chat platform is dying from the same disease — **aggressive
 
 ---
 
-## 🏗️ Architecture
-
-**Client:** React 18 + Vite 5 + Tailwind CSS 3 + Framer Motion  
-**Server:** Express 4 + Socket.IO 4 + PostgreSQL  
-**Realtime:** WebRTC P2P with STUN/TURN fallback  
-**Auth:** Google OAuth 2.0
-
 ---
 
 ## 🎨 Design System
