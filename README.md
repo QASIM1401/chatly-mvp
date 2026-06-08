@@ -95,13 +95,6 @@ Every major random chat platform is dying from the same disease — **aggressive
 - 🎯 **60 FPS** — GPU-accelerated animations with `will-change` and `transform3d`
 - 🗜️ **PWA Ready** — Vite PWA plugin, installable manifest, offline service worker
 
-### Developer Experience
-- 🧪 **29 Unit Tests** — Vitest + jsdom + Testing Library
-- ✅ **0 ESLint Errors** — Strict flat config
-- 🎨 **Prettier** — Consistent formatting
-- 🔄 **CI/CD Ready** — GitHub Actions workflow (build + lint + test)
-- 📋 **Prisma ORM** — Type-safe database with cascading relations
-
 ---
 
 ## 🏗️ Architecture
@@ -109,8 +102,7 @@ Every major random chat platform is dying from the same disease — **aggressive
 **Client:** React 18 + Vite 5 + Tailwind CSS 3 + Framer Motion  
 **Server:** Express 4 + Socket.IO 4 + Prisma ORM + PostgreSQL  
 **Realtime:** WebRTC P2P with STUN/TURN fallback  
-**Auth:** Google OAuth 2.0  
-**Testing:** Vitest + Testing Library + ESLint + Prettier
+**Auth:** Google OAuth 2.0
 
 ---
 
