@@ -142,67 +142,15 @@ Every major random chat platform is dying from the same disease — **aggressive
 
 | Metric | Value |
 |:---|:---|
-| **Main Bundle** | 457 KB (136 KB gzipped) |
-| **CSS** | 53 KB (9.7 KB gzipped) |
-| **Build Time** | ~33 seconds |
 | **Lighthouse Performance** | 90+ |
 | **Lighthouse Accessibility** | 95+ |
-| **Test Suite** | 29 tests, 0 failures |
-| **ESLint** | 0 errors, 0 warnings |
 | **Device Support** | Desktop, mobile, tablet (adaptive rendering) |
-
----
-
-## 🧪 Testing
-
-```bash
-cd client
-npm test              # Run all 29 tests
-npm run test:watch    # Watch mode
-npm run lint          # ESLint check
-npm run format-check  # Prettier check
-```
-
-**Test Coverage:**
-- 5 test files
-- 29 individual tests
-- Admin auth (10 tests)
-- Queue manager (5 tests)
-- WebRTC (10 tests)
-- Toast notifications (2 tests)
-- Username generator (2 tests)
-
----
-
-## 🗺️ SEO & AI Search Optimization
-
-Chatly is optimized for AI-powered search engines (Google SGE, ChatGPT, Perplexity) and traditional SEO:
-
-- **Title:** "Chatly — Free Random Video Chat | Best Omegle & OmeTV Alternative 2026"
-- **Rich Results:** FAQ schema, WebApplication schema with aggregate rating
-- **Structured Data:** FAQPage with 4 questions targeting competitor keywords
-- **OpenGraph + Twitter Cards:** Full social sharing metadata
-- **Sitemap + robots.txt:** Proper crawling configuration
-- **Target Keywords:** omegle alternative, ometv alternative, monkey app alternative, free random video chat no ads, omegle replacement 2026
 
 ---
 
 ## 📄 License
 
-Proprietary. All rights reserved. This source code is publicly viewable for transparency and reference.
-
----
-
-## 👨‍💻 Engineering
-
-Chatly is a production-grade real-time communication platform featuring:
-- Real-time WebRTC P2P communication
-- Secure Google OAuth authentication
-- Admin analytics dashboard with Recharts
-- 98% bundle size reduction (Three.js → cobe)
-- Full cross-browser compatibility
-- WCAG 2.1 accessibility compliance
-- SEO optimized for AI-powered search engines
+Proprietary. All rights reserved.
 
 ---
 
