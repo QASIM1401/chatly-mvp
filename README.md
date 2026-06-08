@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatlyapp/chatly/main/client/public/favicon.svg">
-    <img src="https://raw.githubusercontent.com/chatlyapp/chatly/main/client/public/favicon.svg" height="100" alt="Chatly">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QASIM1401/chatly-mvp/master/client/public/favicon.svg">
+    <img src="https://raw.githubusercontent.com/QASIM1401/chatly-mvp/master/client/public/favicon.svg" height="100" alt="Chatly">
   </picture>
 </p>
 
