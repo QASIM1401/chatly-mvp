@@ -106,49 +106,11 @@ Every major random chat platform is dying from the same disease — **aggressive
 
 ## 🏗️ Architecture
 
-```
-video-chat-mvp/
-├── client/                    # React + Vite frontend
-│   ├── src/
-│   │   ├── components/        # 22+ React components
-│   │   │   ├── Landing.jsx    # Hero section with stats, CTA, trust signals
-│   │   │   ├── Chat.jsx       # Video chat with WebRTC streaming
-│   │   │   ├── AuthModal.jsx  # Branded Google sign-in modal
-│   │   │   ├── AdminDashboard.jsx  # Admin panel with Recharts
-│   │   │   └── ...            # 18 more components
-│   │   ├── contexts/          # AuthContext, ThemeContext
-│   │   ├── hooks/             # useWebRTC, useSocket, useChat, useTheme, useDeviceCapability
-│   │   ├── utils/             # socket.js, username generator, queue manager
-│   │   ├── __tests__/         # 29 Vitest tests (5 test files)
-│   │   └── index.css          # Design system, all 3 themes, performance hints
-│   ├── public/                # Favicons (SVG + PNG), manifest, robots.txt, sitemap.xml
-│   └── index.html             # SEO-optimized with FAQ schema, OpenGraph, Twitter cards
-│
-├── server/                    # Express + Socket.IO backend
-│   ├── index.js               # Express server with trust proxy, rate limiting
-│   ├── middleware/             # auth.js, adminAuth.js, analyticsMiddleware.js, securityHeaders.js
-│   ├── routes/                # analyticsData.js (admin-only API)
-│   ├── utils/                 # queueManager.js, banEnforcement.js, geoService.js
-│   ├── prisma/                # schema.prisma (User, Report, VisitorStats models)
-│   └── lib/                   # Shared utilities
-│
-├── scripts/                   # Build scripts (favicon generation, theme application)
-└── .github/workflows/         # CI: build + lint + test pipeline
-```
-
-### Tech Stack
-
-| Layer | Technology |
-|:---|:---|
-| **Frontend** | React 18, Vite 5, Tailwind CSS 3, Framer Motion |
-| **Backend** | Express 4, Socket.IO 4, Prisma ORM |
-| **Auth** | Google OAuth 2.0, JWT decode |
-| **Database** | PostgreSQL (Neon/Prisma) |
-| **Realtime** | WebRTC (P2P), STUN/TURN fallback |
-| **Testing** | Vitest 4, jsdom, Testing Library |
-| **CI/CD** | GitHub Actions |
-| **Charts** | Recharts 2 |
-| **Icons** | Lucide React |
+**Client:** React 18 + Vite 5 + Tailwind CSS 3 + Framer Motion  
+**Server:** Express 4 + Socket.IO 4 + Prisma ORM + PostgreSQL  
+**Realtime:** WebRTC P2P with STUN/TURN fallback  
+**Auth:** Google OAuth 2.0  
+**Testing:** Vitest + Testing Library + ESLint + Prettier
 
 ---
 
@@ -175,62 +137,6 @@ video-chat-mvp/
 
 ---
 
-## 🔧 Getting Started
-
-### Prerequisites
-- Node.js ≥ 18
-- PostgreSQL database
-- Google Cloud Console OAuth credentials
-
-### Install & Run
-
-```bash
-# Clone the repo
-git clone https://github.com/chatlyapp/chatly.git
-cd chatly
-
-# Install dependencies
-cd client && npm install
-cd ../server && npm install
-
-# Configure environment
-cp client/.env.example client/.env
-cp server/.env.example server/.env
-# Edit both .env files with your credentials
-
-# Start backend (Terminal 1)
-cd server && npm run dev
-
-# Start frontend (Terminal 2)
-cd client && npm run dev
-```
-
-Open http://localhost:5173
-
-### Build for Production
-
-```bash
-cd client && npm run build   # Output: client/dist/
-cd server && npm start       # Production server
-```
-
-### Environment Variables
-
-```env
-# Client (.env)
-VITE_ADMIN_EMAILS=admin@example.com,admin2@example.com
-VITE_GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
-VITE_TURN_SERVERS=turn:your-turn-server:3478
-VITE_SERVER_URL=http://localhost:3000
-
-# Server (.env)
-ADMIN_EMAILS=admin@example.com
-GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
-DATABASE_URL=postgresql://user:pass@localhost:5432/chatly
-PORT=3000
-```
-
----
 
 ## 📊 Performance Benchmarks
 
