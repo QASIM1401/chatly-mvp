@@ -1,14 +1,5 @@
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100" height="100">
-    <rect width="128" height="128" rx="28" fill="#000"/>
-    <g transform="translate(4,4)" fill="#fff">
-      <path d="M60,16 C84.3,16 104,35.7 104,60 C104,70.8 100.1,80.7 93.6,88.4 L99.2,101.1 C100.1,103.2 98.1,105.3 95.9,104.4 L82.3,99.2 C75.6,102.3 68,104 60,104 C35.7,104 16,84.3 16,60 C16,35.7 35.7,16 60,16Z M60,28 C42.3,28 28,42.3 28,60 C28,77.7 42.3,92 60,92 C66.1,92 71.8,90.3 76.7,87.3 L78.4,86.3 86.8,89.5 83.6,82.2 84.8,80.3 C89.3,74.7 92,67.6 92,60 C92,42.3 77.7,28 60,28Z"/>
-      <rect x="42" y="47" width="22" height="26" rx="6"/>
-      <path d="M69,51.4 C69,49.5 71.1,48.4 72.7,49.4 L81.3,55 C82.7,55.9 82.7,58.1 81.3,59 L72.7,64.6 C71.1,65.6 69,64.5 69,62.6Z"/>
-      <circle cx="82" cy="40" r="5"/>
-      <circle cx="82" cy="40" r="2.5" fill="#000"/>
-    </g>
-  </svg>
+  <img src="https://raw.githubusercontent.com/QASIM1401/chatly-mvp/master/client/public/favicon-32x32.png" width="100" height="100" alt="Chatly">
 </p>
 
 <h1 align="center">Chatly — The Best Free Random Video Chat</h1>
