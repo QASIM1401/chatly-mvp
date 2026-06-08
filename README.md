@@ -19,7 +19,7 @@
 
 <br>
 
-> **TL;DR**: Chatly is a production-grade random 1-on-1 video chat platform with Google authentication, WebRTC P2P streaming, AI moderation, admin analytics, and a premium brutalist UI. **Zero ads. Zero paywalls. Free forever.**
+> **TL;DR**: Chatly is a production-grade random 1-on-1 video chat platform with Google authentication, WebRTC P2P streaming, AI moderation, and a premium brutalist UI. **Zero ads. Zero paywalls. Free forever.**
 
 ---
 
@@ -71,8 +71,8 @@ Every major random chat platform is dying from the same disease — **aggressive
 ### Security
 - 🔑 **End-to-End Encryption** — WebRTC DTLS-SRTP by default
 - 🧱 **Security Headers** — CSP, X-Frame-Options, HSTS, COOP/COEP/CORP
-- 🛡️ **Rate Limiting** — express-rate-limit on all API endpoints
-- 🔐 **Admin Auth** — Role-based access via env-var-backed email list
+- 🛡️ **Rate Limiting** — API protection on all endpoints
+- 🔐 **Access Control** — Role-based user permissions
 - 🚫 **IP Privacy** — IP addresses resolved to country then immediately discarded
 
 ### Premium UI/UX
@@ -81,7 +81,6 @@ Every major random chat platform is dying from the same disease — **aggressive
 - 📱 **Fully Responsive** — Mobile-first, Firefox/Chrome/Safari compatible
 - ♿ **Accessibility** — ARIA roles, keyboard navigation, prefers-reduced-motion
 - 🌫️ **Glass Backdrops** — backdrop-blur modals with dark overlay
-- 📊 **Admin Dashboard** — Recharts analytics, ban manager, export-ready
 - 🔄 **Reconnect Overlay** — WebSocket reconnection handled gracefully
 
 ### Performance
@@ -97,7 +96,7 @@ Every major random chat platform is dying from the same disease — **aggressive
 ## 🏗️ Architecture
 
 **Client:** React 18 + Vite 5 + Tailwind CSS 3 + Framer Motion  
-**Server:** Express 4 + Socket.IO 4 + Prisma ORM + PostgreSQL  
+**Server:** Express 4 + Socket.IO 4 + PostgreSQL  
 **Realtime:** WebRTC P2P with STUN/TURN fallback  
 **Auth:** Google OAuth 2.0
 
