@@ -1,3 +1,12 @@
+# Keep only README and gitignore public
+# Source code is private — do not track
+
+client/
+server/
+scripts/
+docs/
+runtime-errors-in-react/
+tutotrial.md
 node_modules
 dist
 .env
@@ -5,12 +14,6 @@ dist
 .env.production
 .DS_Store
 *.log
-npm-debug.log*
+*.tsbuildinfo
 .vscode
 .idea
-
-# Prisma
-server/prisma/migrations/
-
-# Build
-*.tsbuildinfo
