@@ -12,9 +12,7 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/status-live-success" alt="Status: Live"></a>
   <a href="#"><img src="https://img.shields.io/badge/price-free-important" alt="Price: Free"></a>
-  <a href="#"><img src="https://img.shields.io/badge/stack-react--vite--tailwind--socket.io-blue" alt="Stack"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-proprietary-lightgrey" alt="License"></a>
-  <a href="#"><img src="https://img.shields.io/badge/code%20quality-0%20errors%2C%2029%2F29%20tests-brightgreen" alt="Code Quality"></a>
 </p>
 
 <br>
@@ -85,7 +83,6 @@ Every major random chat platform is dying from the same disease — **aggressive
 - ⚡ **98% Bundle Reduction** — Swapped Three.js (834KB) for cobe (15KB) globe
 - 🧠 **Device-Aware** — Auto-detects RAM/CPU/network, scales animations accordingly
 - 🖼️ **Lazy Loading** — Code-split heavy components via React.lazy()
-- 📦 **~460KB Main Bundle** — 2740 modules, 0 build errors, 29/29 tests passing
 - 🎯 **60 FPS** — GPU-accelerated animations with `will-change` and `transform3d`
 - 🗜️ **PWA Ready** — Vite PWA plugin, installable manifest, offline service worker
 
